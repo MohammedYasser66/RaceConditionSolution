@@ -1,0 +1,179 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  31/Dec/2020  04:01:54
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Exe\ass2.out
+#    Map file     =
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\List\ass2.map
+#    Command line =
+#        -f C:\Users\Mohammed\AppData\Local\Temp\EW2C21.tmp
+#        (C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj\gpio.o
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj\main.o
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj\startup_ewarm.o
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj\sysctl.o
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj\systick.o
+#        --no_out_extension -o
+#        C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Exe\ass2.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\List\ass2.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+do not initialize { section .noinit };
+
+  Section  Kind         Address   Size  Object
+  -------  ----         -------   ----  ------
+"A0":                            0x26c
+  .intvec  const            0x0  0x26c  startup_ewarm.o [1]
+                        - 0x26c  0x26c
+
+"P1":                            0x488
+  .text    ro code        0x26c  0x32c  gpio.o [1]
+  .text    ro code        0x598   0x64  main.o [1]
+  .text    ro code        0x5fc   0x50  sysctl.o [1]
+  .text    ro code        0x64c   0x34  systick.o [1]
+  .text    ro code        0x680   0x1e  startup_ewarm.o [1]
+  .text    ro code        0x69e    0xc  cstartup_M.o [3]
+  .text    ro code        0x6ac   0x1e  cmain.o [3]
+  .text    ro code        0x6ca    0x4  low_level_init.o [2]
+  .text    ro code        0x6ce    0x4  exit.o [2]
+  .text    ro code        0x6d4    0xa  cexit.o [3]
+  .text    ro code        0x6e0   0x14  exit.o [4]
+                        - 0x6f4  0x488
+
+"P2":                            0x100
+  .noinit  uninit   0x2000'0000  0x100  startup_ewarm.o [1]
+                  - 0x2000'0100  0x100
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x6f4     0x7'ffff  0x7'f90c
+  0x2000'0100  0x2000'ffff    0xff00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj: [1]
+    gpio.o                812
+    main.o                100
+    startup_ewarm.o        30      620      256
+    sysctl.o               80
+    systick.o              52
+    -------------------------------------------
+    Total:              1'074      620      256
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    -------------------------------------------
+    Total:                 52
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+-----------------------------------------------
+    Grand Total:        1'160      620      256
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+?main                         0x6ad         Code  Gb  cmain.o [3]
+FaultISR                      0x69b    0x2  Code  Lc  startup_ewarm.o [1]
+GPIODirModeSet                0x26d   0x52  Code  Gb  gpio.o [1]
+GPIOPadConfigSet              0x2bf  0x2aa  Code  Gb  gpio.o [1]
+GPIOPinTypeGPIOOutput         0x569   0x22  Code  Gb  gpio.o [1]
+IntDefaultHandler             0x69d    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0x699    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base             0x0          --   Gb  - Linker created -
+Region$$Table$$Limit            0x0          --   Gb  - Linker created -
+ResetISR                      0x681   0x12  Code  Gb  startup_ewarm.o [1]
+SysCtlPeripheralEnable        0x625   0x1e  Code  Gb  sysctl.o [1]
+SysCtlPeripheralReady         0x5fd   0x28  Code  Gb  sysctl.o [1]
+SysTickDisable                0x659    0xc  Code  Gb  systick.o [1]
+SysTickEnable                 0x64d    0xc  Code  Gb  systick.o [1]
+SysTickIntEnable              0x665    0xc  Code  Gb  systick.o [1]
+SysTickPeriodSet              0x671    0x8  Code  Gb  systick.o [1]
+__cmain                       0x6ad         Code  Gb  cmain.o [3]
+__exit                        0x6e1   0x14  Code  Gb  exit.o [4]
+__iar_program_start           0x69f         Code  Gb  cstartup_M.o [3]
+__low_level_init              0x6cb    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main                    0x6b9         Code  Gb  cmain.o [3]
+_exit                         0x6d5         Code  Gb  cexit.o [3]
+_main                         0x6c7         Code  Gb  cmain.o [3]
+exit                          0x6cf    0x4  Code  Gb  exit.o [2]
+main                          0x599   0x4c  Code  Gb  main.o [1]
+pui32Stack              0x2000'0000  0x100  Data  Lc  startup_ewarm.o [1]
+systick                       0x5e5    0xc  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Mohammed\Desktop\BonusAssignment2\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  1'160 bytes of readonly  code memory
+    620 bytes of readonly  data memory
+    256 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

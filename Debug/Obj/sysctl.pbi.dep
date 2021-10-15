@@ -1,0 +1,17 @@
+sysctl.pbi: C:\Users\Mohammed\Desktop\BonusAssignment2\sysctl.c \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\inc/hw_ints.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\inc/hw_nvic.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\inc/hw_sysctl.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\inc/hw_types.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\inc/hw_flash.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\driverlib/cpu.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\driverlib/debug.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\driverlib/interrupt.h \
+  C:\Users\Mohammed\Desktop\Microcontroller\Tiva\ ware\driverlib/sysctl.h

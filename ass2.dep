@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>389067262</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\List\ass2.map</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\systick.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\ssi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\ass2.out</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\tm4c1294ncpdt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ass2.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\..\Assignment2\startup_ewarm.c</file>
+            <file>$PROJ_DIR$\sysctl.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysctl.xcl</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_nvic.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysctl.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+            <file>$PROJ_DIR$\..\Assignment2\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\..\Assignment2\gpio.c</file>
+            <file>$PROJ_DIR$\..\Assignment2\systick.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\adc.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\uart.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ewarm.xcl</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_ints.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\interrupt.h</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_sysctl.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\debug.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\timer.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\driverlib\cpu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Microcontroller\Tiva ware\inc\hw_flash.h</file>
+            <file>$TOOLKIT_DIR$\config\generic_cortex.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 52 17 3 44 21 36 48 49 38 33 9 45 5 39 40 29 37 1 28 32 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\ass2.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 51 31 6 12 18 23 27 2 22 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Assignment2\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 17 3 44 21 36 16 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sysctl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 52 17 3 44 21 36 35 16 41 33 50 47 43 37 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Assignment2\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 52 17 3 44 21 36 30 35 45 41 33 43 39 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Assignment2\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11 52 17 3 44 21 36 35 16 33 43 37 1</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
